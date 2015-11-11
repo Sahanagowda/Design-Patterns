@@ -1,0 +1,24 @@
+<project>
+
+    <target name="clean">
+        <delete dir="build"/>
+    </target>
+
+    <target name="compile">
+        <mkdir dir="build/classes"/>
+        <javac srcdir="src" destdir="build/classes"/>
+    </target>
+
+    <target name="jar">
+        <mkdir dir="build/jar"/>
+        <jar destfile="build/jar/StratergyAssignment.jar" basedir="build/classes">
+        </jar>
+    </target>
+
+    <target name="run">
+        <java classpath="build/jar/StratergyAssignment.jar"
+        	classname="com.shape.ShapeGame" fork="true" >
+    	 </java>
+    </target>
+
+</project>

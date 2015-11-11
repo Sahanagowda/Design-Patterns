@@ -1,0 +1,21 @@
+
+Group: Senthil Kannan A20356530  
+
+
+Senthil Kannan A20356530  
+
+Sahana Basappa 
+
+
+
+
+
+Instructions to compile 
+cd OODPPA3_Senthil_Kannan_A20356530
+cd OODPPA3_Senthil_Kannan_A20356530
+
+ant compile
+
+ant jar
+
+ant run
